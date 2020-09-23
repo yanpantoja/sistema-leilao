@@ -42,6 +42,7 @@ class LeilaoTest extends TestCase
         $leilao->recebeLance(new Lance($ana, 1000));
         $leilao->recebeLance(new Lance($ana, 1500));
     }
+
     /**
      * @dataProvider geraLances
      */
